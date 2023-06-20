@@ -3,6 +3,8 @@
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 
+import Input from "@/app/components/inputs/input";
+
 type Variant = "LOGIN" | "REGISTER";
 
 const AuthForm = () => {
